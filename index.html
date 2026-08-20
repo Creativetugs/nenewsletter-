@@ -21,13 +21,24 @@
         .apple-links a { color: #999999; text-decoration: none; }
         @media screen and (max-width: 480px) {
             .wrapper { width: 100% !important; }
-            .img-max { width: 100% !important; height: auto !important; }
+            .img-max { width: 100% !important; max-width: 100% !important; height: auto !important; }
             .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
             .stack-column, .event-col, .column-3, .team-col, .col-4, .sponsor-col, .photo-grid td {
                 display: block !important; width: 100% !important; padding-left: 0 !important; padding-right: 0 !important;
             }
-            .mobile-center-img {
-                float: none !important; margin: 0 auto 20px auto !important; width: 100% !important; max-width: 100% !important;
+            .photo-grid td { padding-bottom: 12px !important; }
+            .photo-grid img, .event-col img {
+                width: 100% !important; max-width: 100% !important; height: auto !important;
+            }
+            /* Keep portraits square — do not stretch to full width */
+            .mobile-center-img,
+            img.mobile-center-img {
+                float: none !important;
+                display: block !important;
+                margin: 0 auto 16px auto !important;
+                width: 160px !important;
+                max-width: 160px !important;
+                height: auto !important;
             }
         }
     </style>
@@ -59,7 +70,7 @@
                                         <tr>
                                             <td align="center" style="padding:0; margin:0; line-height:0; font-size:0;">
                                                 <!--[if mso]>
-                                                <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/01e405c192194de5a6b112079078eab8.png?d=600" alt="HFMA Southwestern Ohio Chapter Update - August 2026" width="600" height="250" border="0" style="display:block; width:600px; height:250px;" />
+                                                <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/01e405c192194de5a6b112079078eab8.png?d=600" alt="HFMA Southwestern Ohio Chapter Update - August 2026" width="600" border="0" style="display:block; width:600px; height:auto;" />
                                                 <![endif]-->
                                                 <!--[if !mso]><!-->
                                                 <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/01e405c192194de5a6b112079078eab8.png?d=600" alt="HFMA Southwestern Ohio Chapter Update - August 2026" width="600" border="0" class="img-max" style="display:block; width:100%; max-width:600px; height:auto; border:0; outline:none; text-decoration:none;" />
@@ -80,7 +91,7 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" width="170" align="right" class="mobile-center-img" style="margin:0 0 15px 20px;">
                                                     <tr>
                                                         <td align="center" style="background-color:#ffffff; padding:6px;">
-                                                            <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/0add88aa10064ed091f54ae32636074f.jpg" alt="Arvind Joshi" width="158" height="158" style="display:block; width:158px; height:158px;">
+                                                            <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/0add88aa10064ed091f54ae32636074f.jpg" alt="Arvind Joshi" width="158" style="display:block; width:158px; max-width:158px; height:auto;">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -161,7 +172,7 @@
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #333333; font-weight: bold; padding-bottom: 15px;">Board Installation 2026-2027</div>
                                     <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/9365300199b14349b925d38d1aa9869e.jpg" alt="Board Installation 2026-2027" width="540" class="img-max" style="display:block; width:100%; max-width:540px; height:auto; margin:0 auto 16px auto;">
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #555555; line-height: 22px;">
-                                        <strong style="color:#222222;">Arvind Joshi</strong> (President), <strong style="color:#222222;">Alicia G. Henson</strong> (President-Elect), <strong style="color:#222222;">Carmen Burton</strong> (Vice President), <strong style="color:#222222;">Melissa Oribelleo</strong> (Secretary), <strong style="color:#222222;">Katie McIntosh</strong> (Treasurer), <strong style="color:#222222;">Sommer Bockerstette </strong>(Immediate Past President), <strong style="color:#222222;">Bryan Gordon</strong> (Director), <strong style="color:#222222;">Dan Hosey</strong> (Past President)
+                                        <strong style="color:#222222;">Arvind Joshi</strong> (President), <strong style="color:#222222;">Alicia G. Henson</strong> (President-Elect), <strong style="color:#222222;">Carmen Burton</strong> (Vice President), <strong style="color:#222222;">Melissa Oribelleo</strong> (Secretary), <strong style="color:#222222;">Katie McIntosh</strong> (Treasurer), <strong style="color:#222222;">Sommer Bockerstette</strong> (Immediate Past President), <strong style="color:#222222;">Bryan Gordon</strong> (Director), <strong style="color:#222222;">Dan Hosey</strong> (Past President)
                                     </div>
                                 </td>
                             </tr>
@@ -183,13 +194,12 @@
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #333333; font-weight: bold; padding-bottom: 6px;">Why Volunteer</div>
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #777777; padding-bottom: 15px;">Benefits of volunteering</div>
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #444444; line-height: 22px;">
-                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/d0c031f1b6d54b93b4a8b0ce968f45de.jpg" alt="Daeylin Rock" width="160" height="160" align="right" class="mobile-center-img" style="display:block; width:160px; height:160px; margin:0 0 15px 20px;">
+                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/d0c031f1b6d54b93b4a8b0ce968f45de.jpg" alt="Daeylin Rock" width="160" align="right" class="mobile-center-img" style="display:block; width:160px; max-width:160px; height:auto; margin:0 0 15px 20px;">
                                         <div style="font-size:16px; font-weight:bold; color:#222222; padding-bottom:4px;">Daeylin Rock</div>
                                         <div style="padding-bottom:2px;">Account Director, Tegria</div>
                                         <div style="padding-bottom:2px;">HFMA Programming committee Co-Chair</div>
                                         <div style="padding-bottom:2px;"><a href="mailto:Daeylin.rock@tegria.com" style="color:#0099E0; text-decoration:underline;">Daeylin.rock@tegria.com</a></div>
-                                        <div style="padding-bottom:2px;"><a href="https://hello.tegria.com/c/daeylin-rocktegria-com" target="_blank" style="color:#0099E0; text-decoration:underline;">https://hello.tegria.com/c/daeylin-rocktegria-com</a></div>
-                                        <div style="padding-bottom:15px;"><a href="https://hello.tegria.com/c/daeylin-rocktegria-com" target="_blank" style="color:#0099E0; text-decoration:underline;">tegria.com</a></div>
+                                        <div style="padding-bottom:15px;"><a href="https://www.tegria.com" target="_blank" style="color:#0099E0; text-decoration:underline;">Tegria | Global Healthcare Consulting &amp; Services Company</a></div>
                                         HFMA has been such an unexpected surprise in my life. I attended my first event a little over a year ago to network and learn about the current state of healthcare finance in my area. I had no idea that what I thought would be a routine conference would have such a profound impact on my life. Given it was my first event, I didn&rsquo;t know what to expect. But any anxiety I had was quickly put to rest when I was greeted by such engaged and welcoming chapter leadership. I was blown away, not only by the amazing speakers and content, but how well organized and thoughtful the event was.
                                         <br><br>
                                         I was quickly invited to volunteer on a committee, which I eagerly accepted given the opportunity it presented to learn. From that work, I&rsquo;ve come to see that every person in this chapter works diligently to ensure that each decision we make is in the interest of our membership and the amazing hospital systems we support. It truly is a community of like-minded individuals who volunteer their time to something they&rsquo;re passionate about. The vision is clear, and with every event I&rsquo;ve had the chance to help plan, coordinate, and volunteer at, my appreciation for the work has grown. Like me, many folks join and attend to learn, network, and get a day away from the office. But why do they stay? That&rsquo;s clear. They stay for the relationships. It&rsquo;s why it&rsquo;s such a privilege to be involved. The relationships I&rsquo;ve built will last long beyond my time as a committee chair, account director, or volunteer. For that, I&rsquo;m grateful every day.
@@ -202,7 +212,7 @@
                                 <td align="left" bgcolor="#e6e7e8" style="padding: 40px 30px;" class="mobile-padding">
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #333333; font-weight: bold; padding-bottom: 15px;">Andrea Wiggins</div>
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #444444; line-height: 22px;">
-                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/3635c969340e404ab2a552f560f172f8.jpg" alt="Andrea Wiggins" width="160" height="160" align="right" class="mobile-center-img" style="display:block; width:160px; height:160px; margin:0 0 15px 20px;">
+                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/3635c969340e404ab2a552f560f172f8.jpg" alt="Andrea Wiggins" width="160" align="right" class="mobile-center-img" style="display:block; width:160px; max-width:160px; height:auto; margin:0 0 15px 20px;">
                                         <div style="padding-bottom:2px;">Patient Access Manager, Premier Health</div>
                                         <div style="padding-bottom:15px;">HFMA Planning Committee Chair</div>
                                         Volunteering gives me the chance to turn compassion into action and make a real difference in the lives of others. It is one of the most meaningful ways I can serve my community, express gratitude for the blessings I have received, and contribute something positive in return. Whether I am helping someone in need, supporting an organization, or simply giving my time, I know that even small acts of service can create a lasting impact.
@@ -252,7 +262,7 @@
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #333333; font-weight: bold; padding-bottom: 6px;">Certification Spotlight</div>
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; font-weight: bold; padding-bottom: 15px;">Why Tera got certified.</div>
                                     <div style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #444444; line-height: 22px;">
-                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/fbbb11efb5b441848902252c64b5ff7b.png" alt="Tera Leedy" width="160" height="160" align="right" class="mobile-center-img" style="display:block; width:160px; height:160px; margin:0 0 15px 20px;">
+                                        <img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/fbbb11efb5b441848902252c64b5ff7b.png" alt="Tera Leedy" width="160" align="right" class="mobile-center-img" style="display:block; width:160px; max-width:160px; height:auto; margin:0 0 15px 20px;">
                                         <div style="font-size:16px; font-weight:bold; color:#333333;">Tera Leedy</div>
                                         <div style="font-size:14px; color:#555555; padding-bottom:15px;">Manager, Patient Access<br>Premier Health</div>
                                         My name is Tera Leedy. I am a Manager for Patient Access in Revenue Cycle. Patient Access, which some may refer to as registration, is a part of the front end of the Revenue Cycle. I have held various roles in Patient Access since 2001 from a Patient Access Specialist, Team Lead, Supervisor, and a Manager since 2013.
@@ -338,14 +348,11 @@
                                         <tr>
                                             <td align="center" style="font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; color: #333333; padding-bottom: 30px;">Current Sponsors</td>
                                         </tr>
-                                        <tr><td align="center" bgcolor="#939598" style="padding:10px; font-family:Arial, sans-serif; font-size:18px; font-weight:bold; color:#ffffff;">PLATINUM SPONSORS</td></tr>
-                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:20px 0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/535be107775a49a69525eae8048af0b9.png" alt="Platinum Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
-                                        <tr><td align="center" bgcolor="#B8AC00" style="padding:10px; font-family:Arial, sans-serif; font-size:18px; font-weight:bold; color:#ffffff;">GOLD SPONSORS</td></tr>
-                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:20px 0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/7fea633849d149e4ac97e44c8cda073a.png" alt="Gold Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
-                                        <tr><td align="center" bgcolor="#D1D3D4" style="padding:10px; font-family:Arial, sans-serif; font-size:18px; font-weight:bold; color:#ffffff;">SILVER SPONSORS</td></tr>
-                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:20px 0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/e521ec4c8fb74da0b52971cf8b42c475.png" alt="Silver Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
-                                        <tr><td align="center" bgcolor="#CA986A" style="padding:10px; font-family:Arial, sans-serif; font-size:18px; font-weight:bold; color:#ffffff;">BRONZE SPONSORS</td></tr>
-                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:20px 0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/842e0aff18b64cfdb62f1ef62ceeffbc.png" alt="Bronze Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
+                                        <!-- Tier labels are already in the sponsor graphics — do not add HTML headers or they duplicate -->
+                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:0 0 10px 0; line-height:0; font-size:0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/535be107775a49a69525eae8048af0b9.png" alt="Platinum Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
+                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:0 0 10px 0; line-height:0; font-size:0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/7fea633849d149e4ac97e44c8cda073a.png" alt="Gold Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
+                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:0 0 10px 0; line-height:0; font-size:0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/e521ec4c8fb74da0b52971cf8b42c475.png" alt="Silver Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
+                                        <tr><td align="center" bgcolor="#FFFFFF" style="padding:0 0 10px 0; line-height:0; font-size:0;"><img src="https://custom.cvent.com/BF623C33076140AB84B1D8318B384E0F/pix/842e0aff18b64cfdb62f1ef62ceeffbc.png" alt="Bronze Sponsors" width="600" class="img-max" style="display:block; width:100%; max-width:600px; height:auto;"></td></tr>
                                     </table>
                                 </td>
                             </tr>
